@@ -36,7 +36,7 @@ Este é um jogo baseado no algoritmo de busca A* para a personagem Barbie, onde 
 - **Clique nos botões**: Para selecionar opções na tela inicial e reiniciar.
 - **Mouse**: No modo manual, clique nas células do mapa para alterar as cores ou selecionar amigos.
 
-## Arquivo de Mapa (`mapa.csv`) 
+## 🗺️ Arquivo de Mapa (`mapa.csv`) 
 
 - O mapa é representado por uma matriz de números, onde cada número corresponde a um tipo de terreno com um custo específico de movimentação:
   - `0`: Grama (verde) - custo 2
