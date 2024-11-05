@@ -57,7 +57,7 @@ Este é um jogo baseado no algoritmo de busca A* para a personagem Barbie, onde 
 
 Ao iniciar, Barbie aparece no ponto inicial e percorre o mapa tentando convencer três amigos. Cada movimento é guiado pelo algoritmo A* para otimizar o custo. A busca termina quando Barbie retorna ao ponto de partida após convencer três amigos.
 
-## Instalação e Execução
+## 🛠️ Instalação e Execução
 
 1. **Pré-requisitos**:
    - Python 3.x
