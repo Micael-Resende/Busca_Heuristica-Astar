@@ -87,4 +87,4 @@ Esse README fornece uma visão geral completa, informações de instalação, us
 
 ---
 
-Made by Micael Resende
+Feito com ❤️ por Micael Resende.
