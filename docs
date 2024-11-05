@@ -1,0 +1,41 @@
+O Trabalho 1 consiste em implementar um agente capaz de locomover-se autonomamente pelo Mundo Barbie, explorar os diversos ambientes e convencer três amigos a participar do concursos mundial de programadores. 
+Para isso, você deve utilizar o algoritmo de busca heurística A*. O agente deve ser capaz de calcular automaticamente a melhor rota para encontrar e convencer três amigos a participar do concurso, e retornar até a Casa da Barbie. O Mundo da Barbie é formado por 5 tipos de terrenos:
+asfalto (região cinza escuro), 
+grama (região verde), 
+terra (região marrom), 
+paralelepípedo (região cinza claro), 
+edifícios (região laranja). 
+
+A Barbie nunca pode perder a classe, então mesmo nesta aventura ela está utilizando o seu salto agulha. 
+Dessa forma, cada tipo de terreno exige uma determinada quantidade de esforço, o que faz com a Barbie precise refazer a sua maquiagem constantemente para continuar diva. 
+A quantidade de maquiagem gasta para passar por cada tipo de terreno são os seguintes:
+Asfalto = Custo: + 1 
+Grama = Custo: + 2 
+Terra = Custo: + 3 
+Paralelepípedo = Custo: + 10
+
+A Barbie nunca pode passar por regiões de edifícios (regiões de cor laranja no mapa). 
+As localizações dos 6 melhores amigos da Barbie estão defnidas nas seguintes posições: 2x12, 6x32, 10x9, 24x38, 36x12, 37x38.
+Ao encontrar um amigo, a Barbie deve tentar convence-lo a participar do concurso, porém o amigo pode aceitar ou recursa o convite. Se o convite recusado, a Barbie deve tentar encontrar outro amigo. A Barbie inicia sua jornada na Casa da Barbie (posição [19, 23] no mapa) e termina após ela convencer três amigos a participarem do concurso e retornar até a sua casa. A melhor rota para cumprir essa missão é a rota de menor custo levando em consideração o terreno.
+Informações Adicionais 
+O mapa principal deve ser representado por uma matriz 42 × 42. O agente sempre inicia a jornada na Casa da Barbie (ponto onde está a Barbie está no mapa [19, 23]). O agente sempre termina a sua jornada ao convencer três amigos e retornar até a Casa da Barbie (posição [19, 23]). O agente não pode andar na diagonal, somente na vertical e na horizontal. Os amigos podem ser convencidos em qualquer ordem. Porém, ordens diferentes vão resultaram em custos totais diferentes. Além disso, este é um problema não-determinístico, onde não é possível prever se o amigo vai aceitar o convite para participar do concurso. Devem existir somente três amigos que vão aceitar o convite da Barbie. As indicações de quais amigos vão aceitar o convite da Barbie deve ser sorteada na inicialização do programa, porém o algoritmo de busca não pode ter acesso a essa informação durante o processo de busca. Deve existir uma maneira de visualizar os movimentos do agente, com uma interface gráfica 2D ou 3D. Os mapas devem ser configuráveis, ou seja, deve ser possível modificar o tipo de terreno em cada local. O mapa pode ser lido de um arquivo de texto ou deve ser facilmente editável no código. O programa deve exibir o custo do caminho percorrido pelo agente enquanto ele se movimenta pelo mapa e também o custo final ao terminar a execução. Implemente em Python.
+Dicas para a implementação 1. Como o agente não sabe quais amigos vão aceitar os convites, assuma que no pior dos casos será necessário visitar todos os amigos. 2. Note que este problema é semelhante ao problema do Caixeiro Viajante (Travelling Salesman Problem). É necessário encontrar a melhor rota para visitar todos os amigos uma vez. No trabalho não é obrigatório a resolução deste problema, mas é única maneira de garantir o melhor custo. Implemente a função de busca de uma forma genérica, pois será necessário executa-la múltiplas vezes para diferentes destinos. 
+O Mundo da Barbie é formado por 5 tipos de terrenos:  
+asfalto (região cinza escuro), 
+grama (região verde), 
+terra (região marrom), 
+paralelepípedo (região branco claro), 
+edifícios (região laranja). 
+
+A quantidade de maquiagem gasta para passar por cada tipo de terreno são os seguintes: 
+Asfalto = Custo: +1 
+Terra = Custo: +3 
+Grama = Custo: +2 
+Paralelepípedo = Custo: +10
+
+As localizações dos 6 melhores amigos da Barbie estão defnidas nas seguintes posições: 
+2x12, 6x32, 10x9, 24x38, 36x12, 37x38.
+
+O agente sempre inicia a jornada na Casa da Barbie (ponto onde está a Barbie está no mapa [19, 23]).  O agente não pode andar na diagonal, somente na vertical e na horizontal.
+
+Devem existir somente três amigos que vão aceitar o convite da Barbie. As indicações de quais amigos vão  aceitar o convite da Barbie deve ser sorteada na inicialização do programa, porém o algoritmo de busca não pode ter acesso a essa informação durante o processo de busca.
