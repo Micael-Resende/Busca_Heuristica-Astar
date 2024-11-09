@@ -176,7 +176,7 @@ def draw_path(tela, path, metas, starts, tamanho_bloco):
             x, y = coord
             pygame.draw.rect(tela, (255, 192, 203), (y * tamanho_bloco, x * tamanho_bloco, tamanho_bloco, tamanho_bloco))
             pygame.display.update()
-            pygame.time.delay(30)
+            pygame.time.delay(20)
 
 def desenhar_personagens(tela, personagens, tamanho_bloco):
     for coord, character in personagens.items():
