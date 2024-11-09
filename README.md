@@ -70,7 +70,7 @@ Ao iniciar, Barbie aparece no ponto inicial e percorre o mapa tentando convencer
 
 3. **Execute o jogo**:
    ```bash
-   python main.py
+   python barbie.py
    ```
 
 
