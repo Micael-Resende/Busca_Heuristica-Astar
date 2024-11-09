@@ -73,6 +73,20 @@ Ao iniciar, Barbie aparece no ponto inicial e percorre o mapa tentando convencer
    python main.py
    ```
 
+
+Para carregar as imagens do projeto a partir da pasta `imagens`, você pode modificar a seção de "Imagens do Projeto" no `README.md` para especificar onde as imagens estão armazenadas e como organizá-las. Aqui está o trecho atualizado:
+
+---
+
+## 🖼️ Imagens do Projeto
+
+As imagens do jogo em ação estão armazenadas na pasta `imagens`. Abaixo, alguns exemplos para visualização do projeto:
+
+1. **Tela Inicial**: ![Mobile 1](https://github.com/Micael-Resende/Busca_Heuristica-Astar/blob/master/imagens/tela_inicial.png)
+2. **Mapa do Jogo**: ![Mobile 1](https://github.com/Micael-Resende/Busca_Heuristica-Astar/blob/master/imagens/mapa.png)
+3. **Tela de Menu**: ![Mobile 1](https://github.com/Micael-Resende/Busca_Heuristica-Astar/blob/master/imagens/menu.png)![Mobile 1](https://github.com/Micael-Resende/Busca_Heuristica-Astar/blob/master/imagens/tela_jogar_novamente.png)  
+
+
 ## Contribuição
 
 Contribuições são bem-vindas! Por favor, faça um fork do projeto e envie um pull request com as melhorias.
