@@ -1,7 +1,3 @@
-Aqui está o `README.md` para o projeto:
-
----
-
 # 👱🏻‍♀️ Mundo Barbie - Jogo A* Heurístico 
 
 Este é um jogo baseado no algoritmo de busca A* para a personagem Barbie, onde ela deve convencer três amigos a participarem de um concurso de programação. O projeto utiliza `Python` com `Pygame` para a interface gráfica e apresenta o mundo de Barbie em um mapa configurável, permitindo que o usuário interaja com o ambiente e personagens.
