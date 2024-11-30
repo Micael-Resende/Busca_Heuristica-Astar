@@ -68,10 +68,6 @@ Ao iniciar, Barbie aparece no ponto inicial e percorre o mapa tentando convencer
    ```bash
    python barbie.py
    ```
-
-
-Para carregar as imagens do projeto a partir da pasta `imagens`, você pode modificar a seção de "Imagens do Projeto" no `README.md` para especificar onde as imagens estão armazenadas e como organizá-las. Aqui está o trecho atualizado:
-
 ---
 
 ## 🖼️ Imagens do Projeto
@@ -90,10 +86,6 @@ Contribuições são bem-vindas! Por favor, faça um fork do projeto e envie um 
 ## Licença
 
 Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
----
-
-Esse README fornece uma visão geral completa, informações de instalação, uso, e detalhes técnicos do projeto.
 
 ---
 
